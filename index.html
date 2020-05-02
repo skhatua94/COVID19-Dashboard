@@ -1,0 +1,58 @@
+<html>
+  <header>
+    <title>The Coronavirus Pandemic</title>
+    <script src="./dist/main.js"></script>
+    <link href="style.css" rel="stylesheet" />
+  </header>
+  <body>
+    <div class="wrapper">
+      <div class="box1">
+        <h1>
+          Coronavirus COVID-19 Global Cases
+        </h1>
+      </div>
+      <div class="box2">
+        <h2>
+          Total Number of Confirmed Cases: <span id="totalConfirmedCases"></span>
+        </h2>
+      </div>
+      <div class="box5">
+        <label for="countries">Country:</label>
+        <select id="countries"></select>
+        <input id="fromDate" type="date"></input>
+        <input id="toDate" type="date"></input>
+        <canvas id="myChart"></canvas>
+      </div>
+      <div class="box3">
+        <div style="overflow:auto;">
+        <table id="data">
+          <tr>
+            <th>
+              Location
+            </th>
+            <th>
+              Confirmed Cases
+            </th>
+            <th>
+              Deaths
+            </th>
+          </tr>
+        </table>
+      </div>
+      </div>
+      <div class="box4">
+        Last Updated: <span id="lastUpdated"></span>
+      </div>
+      <div class="box6">
+        By: Sohini Khatua<br/>
+        Data Sources:
+        <ul>
+          <li>https://pomber.github.io/covid19/timeseries.json</li>
+          <li>John Hopkins University</li>
+          <li>CDC</li>
+          
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
