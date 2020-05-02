@@ -1,0 +1,180 @@
+td {
+  border: 1px solid black;
+  text-align: left;
+  padding-left: 3px;
+}
+
+table {
+  border-style: ridge;
+  border-width: 1px;
+  border-color: #5ab0e2;
+  border-radius: 5px;
+  width: 100%;
+}
+
+header {
+  background-color: black;
+  text-align: center;
+  display: block;
+}
+
+h1 {
+  color: rgb(184, 182, 182);
+  text-align: center;
+  font-family: "Arial";
+  border: 2px solid #5ab0e2;
+  position: relative;
+  margin: 0px;
+  padding: 2px;
+  background-color: rgb(36, 36, 36);
+}
+
+h2 {
+  color: rgb(184, 182, 182);
+  font-family: "Arial";
+  text-align: center;
+  margin: 0px;
+  border: 2px solid #5ab0e2;
+  padding: 2px;
+  background-color: rgb(36, 36, 36);
+}
+
+p {
+  padding: 0px;
+}
+
+table tr:hover td {
+  background-color: #cadeeb;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(184, 182, 182);
+}
+
+th {
+  background-color: #5ab0e2;
+  color: rgb(36, 36, 36);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+  padding-left: 5px;
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  font-family: "Arial";
+}
+
+#data {
+  font-family: "Arial";
+  color: #2f4958;
+  font-size: 13px;
+}
+
+#totalConfirmedCases {
+  color: #5ab0e2;
+}
+
+br {
+  padding: 10px;
+}
+
+body {
+  background-color: black;
+}
+
+label {
+  color: rgb(184, 182, 182);
+  font-family: "Arial";
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: min-content;
+  border: 2px solid rgb(8, 8, 8);
+  background-color: rgb(5, 5, 5);
+  border-radius: 5px;
+  column-gap: 10px;
+  row-gap: 10px;
+  height: 97vh;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.box3 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  overflow: auto;
+  border: 2px solid #5ab0e2;
+  padding: 2px;
+}
+
+.box4 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  color: rgb(184, 182, 182);
+  font-family: Arial;
+  border: 2px solid #5ab0e2;
+  padding: 40px;
+  overflow: hidden;
+  background-color: rgb(36, 36, 36);
+  text-align: center;
+  font-size: 25px;
+}
+
+.box5 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  border: 2px solid #5ab0e2;
+  padding: 2px;
+  background-color: rgb(36, 36, 36);
+}
+
+canvas {
+  width: 99% !important;
+  height: 95% !important;
+}
+
+.box6 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  color: rgb(184, 182, 182);
+  font-family: Arial;
+  border: 2px solid #5ab0e2;
+  white-space: nowrap;
+  overflow: auto;
+  background-color: rgb(36, 36, 36);
+  text-align: center;
+  padding-top: 10px;
+}
+
+ul {
+  list-style-type: circle;
+  list-style-position: inside;
+  margin: 0px;
+  padding: 0px;
+}
